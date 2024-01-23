@@ -5,9 +5,9 @@ Group Name: __Siuu__.
 Section: __Section 3__. 
 
 Team Mates:
-1. __Anas__ and __matric no__
+1. __Fill name__ and __matric no____
 2. __MOHAMAD FAWWAZ BIN ZAMRI (2122681)__
-3. __Fill name__ and __matric no__
+3. __MUHAMMAD ANAS REDZA BIN MATT ZAIDI (2128877)__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
