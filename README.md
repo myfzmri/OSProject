@@ -6,7 +6,7 @@ Section: __Section 3__.
 
 Team Mates:
 1. __Anas__ and __matric no__
-2. __Fill name__ and __matric no__
+2. __MOHAMAD FAWWAZ BIN ZAMRI (2122681)__
 3. __Fill name__ and __matric no__
 
 ## Rules
