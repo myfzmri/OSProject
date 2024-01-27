@@ -5,7 +5,7 @@ Group Name: __Siuu__.
 Section: __Section 3__. 
 
 Team Mates:
-1. __Fill name__ and __matric no____
+1. __AIMAN FATHI BIN MOHD FAIRUZ (2121549)__
 2. __MOHAMAD FAWWAZ BIN ZAMRI (2122681)__
 3. __MUHAMMAD ANAS REDZA BIN MATT ZAIDI (2128877)__
 
@@ -24,8 +24,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/myfzmri/OSProject.git__.
+2. How many files and folders are in this repository. ***(1 mark)*** __Two__.
 
 
 ## Exploring github codespaces
