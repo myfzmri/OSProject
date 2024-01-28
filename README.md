@@ -205,19 +205,106 @@ shm                65536        8     65528   1% /dev/shm
 2700    ./.git
 1972    ./images
 4688    .
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+5. Run the command **ls** . ***(1 mark)***
+README.md  images
+6. Run the command **ls -asl** . ***(1 mark)***
+total 28
+ 4 drwxrwxrwx+ 4 codespace root  4096 Jan 28 16:36 .
+ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 16:37 ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 Jan 28 16:37 .git
+12 -rw-rw-rw-  1 codespace root 11480 Jan 28 16:36 README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 16:36 images
+7. Run the command **free -h** . ***(1 mark)*** 
+ total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.4Gi       197Mi       1.0Mi       6.1Gi       6.0Gi
+Swap:            0B          0B          0B
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 2705.962
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.85
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 2706.795
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.85
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND   
+   2546 codespa+  20   0   21.1g 327656  46336 S   2.3   4.0   0:16.77 node      
+   3324 codespa+  20   0  660156  62892  39168 S   0.3   0.8   0:01.26 node      
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.02 docker-i+ 
+      7 codespa+  20   0    7236   1792   1792 S   0.0   0.0   0:00.01 sleep     
+     50 root      20   0   12192   3484   2560 S   0.0   0.0   0:00.00 sshd      
+    784 root      20   0 1389604  77448  49920 S   0.0   1.0   0:00.14 dockerd   
+    792 root      20   0 1282676  46520  30464 S   0.0   0.6   0:00.14 containe+ 
+   1533 codespa+  20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh        
+   1597 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh        
+   2370 codespa+  20   0    2624   1536   1536 S   0.0   0.0   0:00.01 sh        
+   2400 codespa+  20   0  968180 106260  42496 S   0.0   1.3   0:05.27 node      
+   2582 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh        
+   2588 codespa+  20   0  849188  56096  38656 S   0.0   0.7   0:00.20 node      
+   2634 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh        
+   3759 codespa+  20   0  610496  59044  38400 S   0.0   0.7   0:00.25 node      
+   3779 codespa+  20   0   16632  11392   3200 S   0.0   0.1   0:00.18 bash      
+   4270 codespa+  20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh        
+   4319 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh   
+10. Run the command **uname -a**. ***(1 mark)*** 
+Linux codespaces-e68978 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+
+12. What is the available free memory in the system. ***(1 mark)*** 6.1GB
+13. What is the available disk space mounted on /workspace. ***(1 mark)*** 42GB
+14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** The ls command is used in Linux systems to list the files and directories in a directory. When you use it without any options, it provides a basic listing of the files, showing only their names. When use ls -asl, you get a detailed listing that includes hidden files, sizes in blocks, and various details about each file or directory.
+16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
+18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
 
 ## Running your own container instance.
 
