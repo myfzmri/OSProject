@@ -78,10 +78,12 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)*** 
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ pwd
 /workspaces/OSProject
 ```
 2. Run the command **cat /etc/passwd** . ***(1 mark)***
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -110,16 +112,18 @@ sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 ```
 3. Run the command **df** . ***(1 mark)*** 
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
-overlay         32847680 13636768  17516816  44% /
+overlay         32847680 13638696  17514888  44% /
 tmpfs              65536        0     65536   0% /dev
-shm                65536        8     65528   1% /dev/shm
-/dev/root       30298176 22724316   7557476  76% /vscode
-/dev/sda1       46127956      144  43752236   1% /tmp
-/dev/loop3      32847680 13636768  17516816  44% /workspaces
+shm                65536        0     65536   0% /dev/shm
+/dev/root       30298176 22944500   7337292  76% /vscode
+/dev/sda1       46127956      132  43752248   1% /tmp
+/dev/loop3      32847680 13638696  17514888  44% /workspaces
 ```
 4. Run the command **du** . ***(1 mark)*** 
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ du
 64      ./.git/hooks
 4       ./.git/branches
 8       ./.git/info
@@ -216,10 +220,12 @@ shm                65536        8     65528   1% /dev/shm
 ```
 5. Run the command **ls** . ***(1 mark)***
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ ls
 README.md  images
 ```
 6. Run the command **ls -asl** . ***(1 mark)***
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ ls -asl
 total 28
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 28 16:36 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 16:37 ..
@@ -229,12 +235,14 @@ total 28
 ```
 7. Run the command **free -h** . ***(1 mark)*** 
 ```bash
- total        used        free      shared  buff/cache   available
-Mem:          7.7Gi       1.4Gi       197Mi       1.0Mi       6.1Gi       6.0Gi
+ @aemon1407 ➜ /workspaces/OSProject (main) $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.6Gi       245Mi       1.0Mi       5.9Gi       5.9Gi
 Swap:            0B          0B          0B
 ```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -242,7 +250,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2705.962
+cpu MHz         : 2894.869
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -256,7 +264,7 @@ cpuid level     : 13
 wp              : yes
 flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
 bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
-bogomips        : 4890.85
+bogomips        : 4890.86
 TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
@@ -270,7 +278,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2706.795
+cpu MHz         : 2985.818
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -284,7 +292,7 @@ cpuid level     : 13
 wp              : yes
 flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
 bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
-bogomips        : 4890.85
+bogomips        : 4890.86
 TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
@@ -315,6 +323,7 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 ```   
 10. Run the command **uname -a**. ***(1 mark)*** 
 ```bash
+@aemon1407 ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-e68978 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 ```
 12. What is the available free memory in the system. ***(1 mark)*** 6.1GB
