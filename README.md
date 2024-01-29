@@ -109,6 +109,7 @@ codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
 ```
 3. Run the command **df** . ***(1 mark)*** 
+```bash
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 13636768  17516816  44% /
 tmpfs              65536        0     65536   0% /dev
@@ -116,6 +117,7 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 22724316   7557476  76% /vscode
 /dev/sda1       46127956      144  43752236   1% /tmp
 /dev/loop3      32847680 13636768  17516816  44% /workspaces
+```
 4. Run the command **du** . ***(1 mark)*** 
 ```bash
 64      ./.git/hooks
