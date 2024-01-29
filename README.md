@@ -117,6 +117,7 @@ shm                65536        8     65528   1% /dev/shm
 /dev/sda1       46127956      144  43752236   1% /tmp
 /dev/loop3      32847680 13636768  17516816  44% /workspaces
 4. Run the command **du** . ***(1 mark)*** 
+```bash
 64      ./.git/hooks
 4       ./.git/branches
 8       ./.git/info
@@ -210,20 +211,28 @@ shm                65536        8     65528   1% /dev/shm
 2700    ./.git
 1972    ./images
 4688    .
+```
 5. Run the command **ls** . ***(1 mark)***
+```bash
 README.md  images
+```
 6. Run the command **ls -asl** . ***(1 mark)***
+```bash
 total 28
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 28 16:36 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jan 28 16:37 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 28 16:37 .git
 12 -rw-rw-rw-  1 codespace root 11480 Jan 28 16:36 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 28 16:36 images
+```
 7. Run the command **free -h** . ***(1 mark)*** 
+```bash
  total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.4Gi       197Mi       1.0Mi       6.1Gi       6.0Gi
 Swap:            0B          0B          0B
+```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+```bash
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -279,9 +288,10 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-
+```
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
-   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND   
+  ```bash
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND   
    2546 codespa+  20   0   21.1g 327656  46336 S   2.3   4.0   0:16.77 node      
    3324 codespa+  20   0  660156  62892  39168 S   0.3   0.8   0:01.26 node      
       1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.02 docker-i+ 
@@ -299,10 +309,12 @@ power management:
    3759 codespa+  20   0  610496  59044  38400 S   0.0   0.7   0:00.25 node      
    3779 codespa+  20   0   16632  11392   3200 S   0.0   0.1   0:00.18 bash      
    4270 codespa+  20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh        
-   4319 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh   
+   4319 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh
+```   
 10. Run the command **uname -a**. ***(1 mark)*** 
+```bash
 Linux codespaces-e68978 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
-
+```
 12. What is the available free memory in the system. ***(1 mark)*** 6.1GB
 13. What is the available disk space mounted on /workspace. ***(1 mark)*** 42GB
 14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
