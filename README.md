@@ -1,6 +1,6 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Siuu__. 
+Group Name: __Fight Club__. 
 
 Section: __Section 3__. 
 
