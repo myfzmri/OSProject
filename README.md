@@ -320,7 +320,7 @@ Linux codespaces-e68978 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 12. What is the available free memory in the system. ***(1 mark)*** 6.1GB
 13. What is the available disk space mounted on /workspace. ***(1 mark)*** 42GB
 14. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __The version of the Linux virtual environment is 6.2.0-1018-azure, and the hardware architecture is x86_64.__.
-15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** The ls command is used in Linux systems to list the files and directories in a directory. When you use it without any options, it provides a basic listing of the files, showing only their names. When use ls -asl, you get a detailed listing that includes hidden files, sizes in blocks, and various details about each file or directory.
+15. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __The ls command is used in Linux systems to list the files and directories in a directory. When you use it without any options, it provides a basic listing of the files, showing only their names. When use ls -asl, you get a detailed listing that includes hidden files, sizes in blocks, and various details about each file or directory__.
 16. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
 17. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2706.795__.
 18. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __PID 2546. It has a CPU usage of 2.3%.__.
